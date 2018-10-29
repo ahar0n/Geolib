@@ -1,11 +1,11 @@
 function [phi, lambda] = tm2geo(n, e, ell, mc, k0, fn, fe)
-% GEO2TM coordenadas norte y este Tranverse de Mercator (TM).
+% TM2GEO coordenadas norte y este Tranverse de Mercator (TM).
 %
 %   Algorithm: Geographical Coordinates into TM Coordinates
 %   Blachut, T. J., Chrzanowski, A., & Saastamoinen, J. H. (1979). 
 %   Urban Surveying and Mapping. New York, NY: Springer New York. pp. 24
 %
-%   [PHI, LB] = GEO2TM(N, E, ELL, MC, K0, FN, FE) retorna las coordenadas
+%   [PHI, LB] = TM2GEO(N, E, ELL, MC, K0, FN, FE) retorna las coordenadas
 %   geodesicas latitud (PDI) y longitud (LB) sobre el elipsoide (ELL)
 %   a partir de las coordenadas TM norte (N) y este (E). Requiere como 
 %   argumento los parametros del huso TM: meridiano central (MC) del huso 
